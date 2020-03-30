@@ -1,16 +1,23 @@
 package br.com.bradseg.suportessv;
 
 import java.util.Map;
- 
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import br.com.bradseg.suportessv.facade.ServidoresFacade;
  
 @Controller
 public class IndexController {
- 
+
+    @Autowired
+    private ServidoresFacade servidoresFacade;
+
     @RequestMapping("/")
     public String home(Map<String, Object> model) {
         model.put("message", "How To Do In Java Reader !!");
+        System.out.println(servidoresFacade.toString());
         return "index";
     }
      

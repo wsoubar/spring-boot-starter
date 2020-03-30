@@ -9,10 +9,10 @@
 		<relativePath/>
 	</parent>
 	<groupId>br.com.bradseg</groupId>
-	<artifactId>suportessv</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>ssv-scripts-mng</artifactId>
+	<version>0.0.1</version>
 	<name>Suporte SSV</name>
-	<description>Demo project for Spring Boot</description>
+	<description>SSV Scripts Manager</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

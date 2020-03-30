@@ -6,32 +6,36 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class User {
+public class Servidor {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer id;
-	private String name;
-	private String email;
-	
+	private String nome;
+	private String ambiente;
+
 	public Integer getId() {
 		return id;
 	}
+
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	public String getName() {
-		return name;
+
+	public String getNome() {
+		return nome;
 	}
-	public void setName(String name) {
-		this.name = name;
+
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
-	public String getEmail() {
-		return email;
+
+	public String getAmbiente() {
+		return ambiente;
 	}
-	public void setEmail(String email) {
-		this.email = email;
+
+	public void setAmbiente(String ambiente) {
+		this.ambiente = ambiente;
 	}
 	
-
 }
