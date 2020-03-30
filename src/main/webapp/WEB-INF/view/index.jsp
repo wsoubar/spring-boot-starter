@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <div>
+    <div class="container">
         <div>
             <h1>Spring Boot JSP Example</h1>
             <h2>Hello ${message}</h2>

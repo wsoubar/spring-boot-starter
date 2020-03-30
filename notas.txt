@@ -1,2 +1,10 @@
 exemplo tirado daqui
 https://howtodoinjava.com/spring-boot/spring-boot-jsp-view-example/
+
+http://zetcode.com/springboot/datajpaquery/
+
+https://www.baeldung.com/spring-data-jpa-query
+
+https://www.springboottutorial.com/spring-boot-with-jquery-and-bootstrap-web-jars
+
+http://www.littlebigextra.com/add-bootstrap-css-jquery-to-springboot-mvc/
