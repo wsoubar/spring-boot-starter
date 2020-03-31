@@ -16,7 +16,7 @@ public class IndexController {
 
     @RequestMapping("/")
     public String home(Map<String, Object> model) {
-        model.put("message", "How To Do In Java Reader !!");
+        model.put("message", "Isso é um teste. Atenção !!");
         System.out.println(servidoresFacade.toString());
         return "index";
     }
