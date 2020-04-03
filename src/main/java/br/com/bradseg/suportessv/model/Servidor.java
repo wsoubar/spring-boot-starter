@@ -1,4 +1,4 @@
-package br.com.bradseg.suportessv.dao.entity;
+package br.com.bradseg.suportessv.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

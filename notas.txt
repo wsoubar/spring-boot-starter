@@ -1,6 +1,8 @@
 exemplo tirado daqui
 https://howtodoinjava.com/spring-boot/spring-boot-jsp-view-example/
 
+https://spring.io/guides/gs/accessing-data-mysql/
+
 http://zetcode.com/springboot/datajpaquery/
 
 https://www.baeldung.com/spring-data-jpa-query

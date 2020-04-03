@@ -1,4 +1,4 @@
-package br.com.bradseg.suportessv.dao.impl;
+package br.com.bradseg.suportessv.dao.repository;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -7,8 +7,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import br.com.bradseg.suportessv.dao.entity.Servidor;
-import br.com.bradseg.suportessv.dao.repository.ServidorRepository;
+import br.com.bradseg.suportessv.model.Servidor;
 
 /**
  * UserDaoImpl

@@ -1,4 +1,4 @@
-package br.com.bradseg.suportessv;
+package br.com.bradseg.suportessv.controller;
 
 import java.util.Map;
 

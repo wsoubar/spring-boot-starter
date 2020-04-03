@@ -1,0 +1,11 @@
+.main-container {
+    width: 300px !important;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* add code below to also center horizontally */
+    align-items: center;
+  }

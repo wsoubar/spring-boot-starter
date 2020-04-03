@@ -6,7 +6,7 @@ import java.util.Map;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
-import br.com.bradseg.suportessv.dao.entity.Servidor;
+import br.com.bradseg.suportessv.model.Servidor;
 
 public interface ServidorRepository extends CrudRepository<Servidor, Integer> {
 

@@ -4,50 +4,29 @@
 <%@ page contentType="text/html" pageEncoding="UTF-8" %>
 
 <html>
+
 <head>
+
   <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>SSV SharedLib Scripts</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type='text/css' media='screen' href="css/main.css">
     <link rel="stylesheet" type='text/css' media='screen' href="css/bootstrap.min.css">
-    <script src='js/main.js'></script>
-</head>
+  </head>
+
 <body>
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>SSV Gerador de Scripts de cópia de SharedLibs</h1>
-        <p>Este App vai gerar os scripts usados na cópia de sharedLibs nos 3 ambientes: Produção, Homologação e 
-          Desenvolvimento. Deve-se manter o cadastro de servidores atualizados para que tenhamos sucesso 
-          em atualizar todas as máquinas de maneira rápida e assertiva.
-        </p>
-      </div>
+  <div class="wrapper">
+    <div class="row">
+        <h1>SSV gerador de scripts</h1>
     </div>
-
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>PRODUÇÃO</h2>
-          <a class="btn btn-default" href="#" role="button">Gerenciar servidores de PRD &raquo;</a>
-        </div>
-        <div class="col-md-4">
-          <h2>HOMOLOGAÇÃO</h2>
-          <a class="btn btn-default" href="#" role="button">Gerenciar servidores de HML &raquo;</a>
-       </div>
-        <div class="col-md-4">
-          <h2>DESENVOLVIMENTO</h2>
-          <a class="btn btn-default" href="#" role="button">Gerenciar servidores de DSV &raquo;</a>
-        </div>
-      </div>
-
-      <hr>
-
-      <footer>
-        <p>&copy; 2016 Company, Inc.</p>
-      </footer>
-    </div> <!-- /container -->  
+    <div> <!--  class="well center-block" style="max-width: 400px;" -->
+      <button type="button" class="btn btn-primary btn-lg btn-block">Servidores de Produção</button>
+      <button type="button" class="btn btn-primary btn-lg btn-block">Seridores de Homologação</button>
+      <button type="button" class="btn btn-primary btn-lg btn-block">Servidores de Desenvolvimento</button>
+    </div>
+  </div>
   <!--
   <div class="container">
     <div class="row">
@@ -63,6 +42,7 @@
   </div>
 
 -->
+  <script src='js/main.js'></script>
 </body>
 
 </html>
